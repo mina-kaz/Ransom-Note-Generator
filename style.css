@@ -1,0 +1,90 @@
+/* to impoty rhe codes for the fonts from Google font, ths will make possible for the fonts to show 
+Silvia*/
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Overlock');
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Charm');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+    background-color: #ddd;
+}
+canvas {
+  display: block;
+  background-color: white;
+  border: 1px solid #000;
+}
+
+
+.title{
+    align-content: center;
+    text-align: center;
+    font-family: Helvetica; 
+}
+
+
+#input {
+    
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    background-color: #73827f;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.cover {
+    background-color: hotpink;
+    padding: 20px;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+#button {
+     margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+    background-color: #3d3d3d;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+   
+    
+}
+
+#drawCanvas{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+
